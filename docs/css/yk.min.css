@@ -789,7 +789,7 @@ main {
   line-height: 20px;
   margin: 0;
   margin-left: auto;
-  background-color: var(--color-white);
+  background-color: var(--gray0);
   border-radius: 8px;
   transition: background-color 0.3s ease-out;
 }
@@ -942,6 +942,11 @@ main {
 
   #projects {
     gap: var(--padding);
+  }
+
+  #copyright .copyright {
+    font-size: 12px;
+    line-height: 16px;
   }
 
   .project {
